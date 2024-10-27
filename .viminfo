@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :x
-|2,0,1730054148,,"x"
+|2,0,1730054317,,"x"
 
 # Search String History (newest to oldest):
 
@@ -25,20 +25,38 @@
 # Registers:
 
 # File marks:
-'0  9  0  ~/.gitignore
-|4,48,9,0,1730054148,"~/.gitignore"
-'1  5  32  ~/.kube/config
-|4,49,5,32,1730041275,"~/.kube/config"
+'0  15  14  ~/.gitignore
+|4,48,15,14,1730054317,"~/.gitignore"
+'1  9  0  ~/.gitignore
+|4,49,9,0,1730054148,"~/.gitignore"
+'2  9  0  ~/.gitignore
+|4,50,9,0,1730054148,"~/.gitignore"
+'3  5  32  ~/.kube/config
+|4,51,5,32,1730041275,"~/.kube/config"
 
 # Jumplist (newest first):
+-'  15  14  ~/.gitignore
+|4,39,15,14,1730054317,"~/.gitignore"
+-'  9  0  ~/.gitignore
+|4,39,9,0,1730054302,"~/.gitignore"
 -'  9  0  ~/.gitignore
 |4,39,9,0,1730054148,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1730054101,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1730054101,"~/.gitignore"
 -'  5  32  ~/.kube/config
 |4,39,5,32,1730041275,"~/.kube/config"
 -'  5  32  ~/.kube/config
 |4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
 -'  1  0  ~/.kube/config
 |4,39,1,0,1730041262,"~/.kube/config"
 -'  1  0  ~/.kube/config
@@ -47,13 +65,15 @@
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1730054147	0
-	"	9	0
-	^	9	0
-	.	14	0
-	+	12	12
+	*	1730054316	0
+	"	15	14
+	^	15	15
+	.	15	14
+	+	13	12
 	+	8	6
-	+	14	0
+	+	15	0
+	+	9	11
+	+	15	14
 
 > ~/.kube/config
 	*	1730041275	0
