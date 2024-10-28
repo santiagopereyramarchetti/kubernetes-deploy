@@ -43,5 +43,5 @@ spec:
           envFrom:
             - configMapRef:
                 name: api
-            - secretRef:
-                name: posts
+            # - secretRef:
+            #     name: posts

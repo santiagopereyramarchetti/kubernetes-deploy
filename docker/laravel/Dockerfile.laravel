@@ -39,4 +39,4 @@ RUN php artisan storage:link && \
     chmod -R 775 ./storage ./bootstrap/cache
 
 USER backend
-# ENTRYPOINT ["sh", "-c", "chmod +x /usr/src/init.sh && /usr/src/init.sh && php-fpm"]
+ENTRYPOINT ["sh", "-c", "chmod +x /usr/src/init.sh && /usr/src/init.sh && php-fpm"]

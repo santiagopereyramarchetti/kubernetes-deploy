@@ -44,7 +44,7 @@
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('http://192.168.10.40/api/people'); // Hacer una solicitud GET
+            const response = await axios.get('/api/people'); // Hacer una solicitud GET
             items.value = response.data; // Asignar los datos a la referencia
         } catch (error) {
             console.error('Error fetching data:', error); // Manejar errores
@@ -54,9 +54,9 @@
     const submitForm = async () => {
         try {
             if (isEditing.value) {
-                await axios.put(`http://192.168.10.40/api/people/${currentId.value}`, formData.value);
+                await axios.put(`/api/people/${currentId.value}`, formData.value);
             } else {
-                await axios.post('http://192.168.10.40/api/people', formData.value);
+                await axios.post('/api/people', formData.value);
             }
             resetForm();
             fetchData();
@@ -80,7 +80,7 @@
     const deletePerson = async (id) => {
         if (confirm('¿Estás seguro de que deseas eliminar esta persona?')) {
             try {
-                await axios.delete(`http://192.168.10.40/api/people/${id}`);
+                await axios.delete(`/api/people/${id}`);
                 fetchData();
             } catch (error) {
                 console.error('Error deleting person:', error);

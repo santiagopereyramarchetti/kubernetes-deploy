@@ -17,6 +17,7 @@ spec:
     metadata:
       labels:
         app: nginx
+    replicas: 1
     spec:
       containers:
         - name: nginx
@@ -26,21 +27,21 @@ spec:
             requests:
               cpu: "50m"
               memory: "16MI"
-          livenessProbe:
-            httpGet:
-              path: /api/health-check
-              port: 80
-            initialDelaySeconds: 30
-            periodSeconds: 30
-            failureThreshold: 2
-            timeoutSeconds: 3
-          readinessProbe:
-            httpGet:
-              path: /api/health-check
-              port: 80
-            initialDelaySeconds: 20
-            periodSeconds: 30
-            failureThreshold: 1
-            timeoutSeconds: 3
+          # livenessProbe:
+          #   httpGet:
+          #     path: /api/health-check
+          #     port: 80
+          #   initialDelaySeconds: 30
+          #   periodSeconds: 30
+          #   failureThreshold: 2
+          #   timeoutSeconds: 3
+          # readinessProbe:
+          #   httpGet:
+          #     path: /api/health-check
+          #     port: 80
+          #   initialDelaySeconds: 20
+          #   periodSeconds: 30
+          #   failureThreshold: 1
+          #   timeoutSeconds: 3
           ports:
             - containerPort: 80

@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :x
-|2,0,1730054317,,"x"
+|2,0,1730079185,,"x"
 
 # Search String History (newest to oldest):
 
@@ -25,26 +25,72 @@
 # Registers:
 
 # File marks:
-'0  15  14  ~/.gitignore
-|4,48,15,14,1730054317,"~/.gitignore"
-'1  9  0  ~/.gitignore
-|4,49,9,0,1730054148,"~/.gitignore"
-'2  9  0  ~/.gitignore
-|4,50,9,0,1730054148,"~/.gitignore"
-'3  5  32  ~/.kube/config
-|4,51,5,32,1730041275,"~/.kube/config"
+'0  16  4  /tmp/kubectl-edit-3877463185.yaml
+|4,48,16,4,1730079185,"/tmp/kubectl-edit-3877463185.yaml"
+'1  17  12  /tmp/kubectl-edit-4243426864.yaml
+|4,49,17,12,1730079114,"/tmp/kubectl-edit-4243426864.yaml"
+'2  15  14  ~/.gitignore
+|4,50,15,14,1730054317,"~/.gitignore"
+'3  9  0  ~/.gitignore
+|4,51,9,0,1730054148,"~/.gitignore"
+'4  9  0  ~/.gitignore
+|4,52,9,0,1730054148,"~/.gitignore"
+'5  5  32  ~/.kube/config
+|4,53,5,32,1730041275,"~/.kube/config"
 
 # Jumplist (newest first):
+-'  16  4  /tmp/kubectl-edit-3877463185.yaml
+|4,39,16,4,1730079185,"/tmp/kubectl-edit-3877463185.yaml"
+-'  1  0  /tmp/kubectl-edit-3877463185.yaml
+|4,39,1,0,1730079165,"/tmp/kubectl-edit-3877463185.yaml"
+-'  17  12  /tmp/kubectl-edit-4243426864.yaml
+|4,39,17,12,1730079114,"/tmp/kubectl-edit-4243426864.yaml"
+-'  17  12  /tmp/kubectl-edit-4243426864.yaml
+|4,39,17,12,1730079114,"/tmp/kubectl-edit-4243426864.yaml"
+-'  1  0  /tmp/kubectl-edit-4243426864.yaml
+|4,39,1,0,1730079092,"/tmp/kubectl-edit-4243426864.yaml"
+-'  1  0  /tmp/kubectl-edit-4243426864.yaml
+|4,39,1,0,1730079092,"/tmp/kubectl-edit-4243426864.yaml"
+-'  15  14  ~/.gitignore
+|4,39,15,14,1730054317,"~/.gitignore"
+-'  15  14  ~/.gitignore
+|4,39,15,14,1730054317,"~/.gitignore"
+-'  15  14  ~/.gitignore
+|4,39,15,14,1730054317,"~/.gitignore"
 -'  15  14  ~/.gitignore
 |4,39,15,14,1730054317,"~/.gitignore"
 -'  9  0  ~/.gitignore
 |4,39,9,0,1730054302,"~/.gitignore"
+-'  9  0  ~/.gitignore
+|4,39,9,0,1730054302,"~/.gitignore"
+-'  9  0  ~/.gitignore
+|4,39,9,0,1730054302,"~/.gitignore"
+-'  9  0  ~/.gitignore
+|4,39,9,0,1730054302,"~/.gitignore"
+-'  9  0  ~/.gitignore
+|4,39,9,0,1730054148,"~/.gitignore"
+-'  9  0  ~/.gitignore
+|4,39,9,0,1730054148,"~/.gitignore"
+-'  9  0  ~/.gitignore
+|4,39,9,0,1730054148,"~/.gitignore"
 -'  9  0  ~/.gitignore
 |4,39,9,0,1730054148,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1730054101,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1730054101,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1730054101,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1730054101,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1730054101,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1730054101,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1730054101,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1730054101,"~/.gitignore"
 -'  5  32  ~/.kube/config
 |4,39,5,32,1730041275,"~/.kube/config"
 -'  5  32  ~/.kube/config
@@ -53,6 +99,54 @@
 |4,39,5,32,1730041275,"~/.kube/config"
 -'  5  32  ~/.kube/config
 |4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  5  32  ~/.kube/config
+|4,39,5,32,1730041275,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
+-'  1  0  ~/.kube/config
+|4,39,1,0,1730041262,"~/.kube/config"
 -'  1  0  ~/.kube/config
 |4,39,1,0,1730041262,"~/.kube/config"
 -'  1  0  ~/.kube/config
@@ -63,6 +157,22 @@
 |4,39,1,0,1730041262,"~/.kube/config"
 
 # History of marks within files (newest to oldest):
+
+> /tmp/kubectl-edit-3877463185.yaml
+	*	1730079183	0
+	"	16	4
+	^	16	5
+	.	17	0
+	+	16	18
+	+	17	0
+
+> /tmp/kubectl-edit-4243426864.yaml
+	*	1730079112	0
+	"	17	12
+	^	17	13
+	.	18	0
+	+	17	13
+	+	18	0
 
 > ~/.gitignore
 	*	1730054316	0
