@@ -24,7 +24,7 @@ spec:
           args:
             - "--appendonly"
             - "yes"
-    volumes:
-      - name: redis-storage
-        persistentVolumeClaim:
-          claimName: redis-pvc
+      volumes:
+        - name: redis-storage
+          persistentVolumeClaim:
+            claimName: redis-pvc

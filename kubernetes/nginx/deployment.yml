@@ -13,11 +13,11 @@ spec:
   selector:
     matchLabels:
       app: nginx
+  replicas: 1
   template:
     metadata:
       labels:
         app: nginx
-    replicas: 1
     spec:
       containers:
         - name: nginx
@@ -26,7 +26,7 @@ spec:
           resources:
             requests:
               cpu: "50m"
-              memory: "16MI"
+              memory: "16Mi"
           # livenessProbe:
           #   httpGet:
           #     path: /api/health-check
