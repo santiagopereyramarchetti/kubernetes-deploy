@@ -8,4 +8,4 @@ spec:
   ipAddressPools:
   - my-pool
   interfaces:
-  - enp0s3
+  - wlan0

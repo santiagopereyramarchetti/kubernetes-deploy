@@ -1,0 +1,72 @@
+version: "3.8"
+services:
+  proxy:
+    build:
+      context: .
+      dockerfile: ./docker/proxy/Dockerfile.proxy
+      x-bake:
+        platforms:
+          - linux/amd64
+          - linux/arm64
+    image: santiagopereyramarchetti/kubernetes-proxy:1.0
+    container_name: proxy 
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: unless-stopped
+    depends_on:
+      - frontend
+      - nginx
+  
+  frontend:
+    build:
+      context: .
+      dockerfile: ./docker/vue/Dockerfile.vue
+      target: prod
+      x-bake:
+        platforms:
+          - linux/amd64
+          - linux/arm64
+    image: santiagopereyramarchetti/kubernetes-frontend:1.0
+    container_name: frontend
+    restart: unless-stopped
+
+  nginx:
+    build:
+      context: .
+      dockerfile: ./docker/nginx/Dockerfile.nginx
+      x-bake:
+        platforms:
+          - linux/amd64
+          - linux/arm64
+    image: santiagopereyramarchetti/kubernetes-nginx:1.0
+    container_name: nginx
+    restart: unless-stopped
+    depends_on:
+      - api
+
+  api:
+    build:
+      context: .
+      dockerfile: ./docker/laravel/Dockerfile.laravel
+      x-bake:
+        platforms:
+          - linux/amd64
+          - linux/arm64
+    image: santiagopereyramarchetti/kubernetes-api:1.0
+    container_name: api
+    restart: unless-stopped
+    depends_on:
+      - mysql
+
+  mysql:
+    build:
+      context: .
+      dockerfile: ./docker/mysql/Dockerfile.mysql
+      x-bake:
+        platforms:
+          - linux/amd64
+          - linux/arm64
+    image: santiagopereyramarchetti/kubernetes-mysql:1.0
+    container_name: mysql
+    restart: unless-stopped
